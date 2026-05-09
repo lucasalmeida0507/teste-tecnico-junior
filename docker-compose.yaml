@@ -1,0 +1,39 @@
+services:
+  # Serviço do Banco de Dados
+  database:
+    image: postgres:15
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: devdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Serviço da API Node.js
+  node-api:
+    build: ./node-api
+    container_name: node_api_service
+    ports:
+      - "3000:3000"
+    environment:
+      # URL que o Prisma usará para conectar ao serviço 'database'
+      DATABASE_URL: "postgresql://user:password@database:5432/devdb"
+    depends_on:
+      - database
+
+  # Serviço da API Python
+  python-api:
+    build: ./python-api
+    container_name: python_api_service
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: "postgresql://user:password@database:5432/devdb"
+    depends_on:
+      - database
+
+volumes:
+  postgres_data:
