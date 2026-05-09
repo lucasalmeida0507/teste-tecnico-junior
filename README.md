@@ -1,0 +1,2 @@
+# teste-tecnico-junior
+NODEJS WITH PYTHON AND TYPESCRIPT
