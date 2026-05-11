@@ -1,6 +1,6 @@
 # TESTE TECNICO JUNIOR 
 
-Codigo em Python com a simples funcionalidade de cadastrar, listar, atualizar e deletar clientes/usuários.
+Codigo em Typescript com Python com a finalidade de cadastrar, listar, atualizar e deletar clientes/usuários.
 
 # TECNOLOGIAS INTEGRADAS NO PROJETO
 
