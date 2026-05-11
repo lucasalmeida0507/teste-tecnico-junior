@@ -9,7 +9,7 @@ Codigo em Typescript com Python com a finalidade de cadastrar, listar, atualizar
 
 - Node.JS = Gerenciamento de users/lógica em Typescript;
 - Python = Rotas da API (FastAPI), consulta de notificações;
-- PostgreSQL = Base do banco de dados não relacionais seguros;
+- PostgreSQL = Base do banco de dados relacionais seguros;
 - Prisma ORM = contém a tabela do banco de dados, construção e distinção dos dados como: number, string, boolean, date, etc;
 - Docker = Conteinirização das funcionalidades, podendo ser executada nos 3 sistemas operacionais (Windows, IOS e Linux).
 
