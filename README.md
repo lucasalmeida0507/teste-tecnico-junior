@@ -107,4 +107,8 @@ Apos cada movimentação, o STATUS vai nos retornar as seguintes informações:
 
 # CONCLUSÃO
 
-De início, havia enfrentado barreiras para executar o projeto teste, pois realizei estudos intermitentes sobre Docker e durante a tentativa de instalação so Software e configuração da máquina, meu Windows foi corrompido. Ato contínuo, realizei a formatação do meu PC ocasionando na perda de quase todo material didático do qual eu havia agregado desde meu ingresso academico na tecnologia. Fui resiliente e busquei soluções alternativas sem a necessidade de comprometer meu setup. Contudo, pude aprender mais sobre Beck End e trazer enfase no que entendia sobre Docker. O projeto tras uma proposta simples e funcional, para uso diário voltado para clientes e usuários, procurei ser o mais didático possivel na documentação para facilitar o entendimento sobre a ferramenta. Estou aberto a sugestões e críticas construtivas.
+Durante o desenvolvimento deste teste, enfrentei desafios técnicos significativos, incluindo a corrupção do meu sistema operacional durante a configuração do ambiente Docker. Apesar da perda de materiais de estudo locais, utilizei essa oportunidade para consolidar meus conhecimentos em Back-End e infraestrutura de forma prática. Optei por soluções alternativas que garantissem a integridade do meu setup, focando em uma entrega funcional. O resultado é um projeto com proposta simples e eficiente para gestão de usuários, acompanhado de uma documentação didática que visa facilitar a compreensão e o uso da ferramenta. Estou à disposição para feedbacks e críticas construtivas.
+
+
+<img width="600" height="315" alt="image" src="https://github.com/user-attachments/assets/501e16d5-2fcd-411b-9e64-663cf8207877" />
+
